@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { TablaCursosComponent } from "./tabla-cursos/tabla-cursos.component";
-import { TablaAlumnosComponent } from "./tabla-alumnos/tabla-alumnos.component";
+import { TablaCursosComponent } from "./components/tabla-cursos/tabla-cursos.component";
+import { TablaAlumnosComponent } from "./components/tabla-alumnos/tabla-alumnos.component";
 
 @Component({
     selector: 'app-root',

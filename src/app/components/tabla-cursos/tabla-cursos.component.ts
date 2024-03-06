@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { alumnos } from '../tabla-alumnos/mock';
+import { Alumno } from '../../models/alumno-to';
 
 @Component({
   selector: 'app-tabla-cursos',
@@ -9,9 +11,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TablaCursosComponent implements OnInit {
 
-  public alumnos?: any[]
+  public cursos?: Alumno[]
 
   ngOnInit(): void{
-    this.alumnos = this.alumnos
+    this.cursos = alumnos
   }
 }
