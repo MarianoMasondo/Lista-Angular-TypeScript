@@ -1,9 +1,6 @@
-export const alumnos = [
-{
-    nombre: "Ricardo",
-    apellido: "Perez",
-    promedio: 8.5
-},
+import { Alumno } from "../../models/alumno-to"
+
+export const alumnos: Alumno[] = [
 {
     nombre: "Susana",
     apellido: "Horia",

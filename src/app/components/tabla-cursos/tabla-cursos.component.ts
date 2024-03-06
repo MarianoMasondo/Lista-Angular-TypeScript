@@ -1,19 +1,17 @@
 import { Component, OnInit } from '@angular/core';
-import { alumnos } from '../tabla-alumnos/mock';
-import { Alumno } from '../../models/alumno-to';
+import { Curso } from '../../models/curso-to';
+import { cursos } from './mock';
 
 @Component({
   selector: 'app-tabla-cursos',
-  standalone: true,
-  imports: [],
   templateUrl: './tabla-cursos.component.html',
   styleUrl: './tabla-cursos.component.css'
 })
 export class TablaCursosComponent implements OnInit {
 
-  public cursos?: Alumno[]
+  public cursos?: Curso[]
 
   ngOnInit(): void{
-    this.cursos = alumnos
+    this.cursos = cursos
   }
 }
