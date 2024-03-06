@@ -1,1 +1,17 @@
-<p>tabla-cursos works!</p>
+<h1>Cursos: </h1>
+<table class="table table-dark table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Materia</th>
+        <th scope="col">Dificultad</th>
+        <th scope="col">Requiere</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngfor="let curso of cursos">
+        <td>{{curso.materia}}</td>
+        <td>{{curso.dificultad}}</td>
+        <td>{{curso.requiere}}</td>
+      </tr>      
+    </tbody>
+  </table>
