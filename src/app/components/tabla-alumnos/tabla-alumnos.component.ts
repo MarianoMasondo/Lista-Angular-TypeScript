@@ -4,6 +4,7 @@ import { Alumno } from '../../models/alumno-to';
 
 
 @Component({
+  
   selector: 'app-tabla-alumnos',
   templateUrl: './tabla-alumnos.component.html',
   styleUrl: './tabla-alumnos.component.css'
